@@ -1,0 +1,276 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+li{
+    color: #292929;
+    list-style: none;
+}
+
+a{
+    color: #292929;
+    text-decoration: none;
+}
+
+body{
+    font-size: 20px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+
+.header__btn{
+    background-color: #01996D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 51px;
+    width: 183px;
+    color: #fff;
+    font-size: 20px;
+    transition: all .1s ease-in-out;
+    border-radius: 5px;
+}
+
+.header__btn:hover{
+    background-color: #01895C;
+    border-radius: 10px;
+    width: 180px;
+    color: #48ffc2;
+}
+
+.header__signin{
+    display: flex;
+}
+
+.header__link-text{
+    padding: 0px 72px;
+    transition: all .1s ease-in-out;
+}
+
+.header__link-text:hover{
+    color: #01996D;
+    font-size: 22px;
+}
+
+.header__text{
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    transition: all .1s ease-in-out;
+}
+
+.header__text:hover{
+    color: #01996D;
+    font-size: 23px;
+}
+
+.intro{
+    background: url(../img/BG.png) no-repeat;
+    height: 895px;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro__header{
+    width: 440px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #01996D;
+    margin-top: 175px;
+}
+
+.intro__text{
+    width: 420px;
+    margin-top: 30px;
+}
+
+.intro__container{
+    margin-right: 1200px;
+}
+
+.intro__container_btn{
+    margin-top: 60px;
+}
+
+.intro__btn{
+    color: #fff;
+    background-color: #01996D;
+    padding: 20px 40px;
+    transition: all .1s ease-in-out;
+    border-radius: 5px;
+}
+
+.intro__btn:hover{
+    background-color: #01895C;
+    border-radius: 10px;
+    padding: 20px 38px;
+    color: #01996D;
+    color: #48ffc2;
+}
+
+.main{
+    margin-top: 170px;
+    width: 1413px;
+    height: 1182px;
+}
+
+.main_header{
+    font-size: 50px;
+    font-weight: 700;
+    color: #01996D;
+    width: 584px;
+    height: 158px;
+}
+
+.main_text{
+    font-size: 24px;
+}
+
+.main__description{
+    font-size: 20px;
+}
+
+.main__header{
+    display: flex;
+    justify-content: center;
+    height: 327px;
+}
+
+.main__descriptoin{
+    width: 671px;
+    margin-top: 40px;
+}
+
+.main__container{
+    display: flex;
+}
+
+.main__container-img{
+    border-radius: 12px;
+}
+
+.main__box-text{
+    width: 390px;
+    padding: 50px;
+}
+
+.main__box{
+    display: flex;
+    flex-direction: column;
+}
+
+.video{
+    background-color: #245852;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1920px;
+    height: 922px;
+    color: #FFF;
+}
+
+.video__header{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.video__text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 33px;
+}
+
+.video__container{
+    width: 580px;
+}
+
+.video__btn-text{
+    background-color: #01996D;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .1s ease-in-out;
+}
+
+.video__btn-text:hover{
+    background-color: rgb(19, 155, 116);
+    padding: 18px 38px;
+    border-radius: 8px;
+    color: #9fff87;
+}
+
+.video__btn{
+    margin-top: 70px;
+}
+
+.product{
+    padding: 120px;
+    display: flex;
+    width: 1370px;
+    justify-content: space-between;
+}
+
+.product_header{
+    font-size: 50px;
+    font-weight: 700;
+    color: #01996D;
+    width: 530px;
+    margin-top: 10px;
+}
+
+.product__text{
+    padding: 20px 0px;
+    width: 500px;
+}
+
+.product__btn{
+    background-color: #01996D;
+    padding: 20px 40px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all.1s ease-in-out;
+}
+
+.product__btn:hover{
+    background-color: #01895C;
+    color: #85dfc5;
+    border-radius: 10px;
+    padding: 18px 38px;
+}
+
+.product__container-btn{
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #245852;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__text{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 60px 0px;
+}
+
+.footer__header{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.footer__container{
+    margin-right: 1500px;
+}
